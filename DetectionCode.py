@@ -38,5 +38,24 @@ regressor.fit(X_train,y_train)
 #predicting results usuing the modal
 y_pred = regressor.predict(X_test)
 
+y_pred=np.rint(y_pred)
+
+
+#creating the confusion matrix
+from sklearn.metrics import confusion_matrix
+cm1 =confusion_matrix(y_test,y_pred)
+
+#Fitting the model in KNN model
+from sklearn.neighbors import KNeighborsClassifier
+classifier =  KNeighborsClassifier(n_neighbors = 8,metric = 'minkowski',p=2)
+classifier.fit(X_train,y_train)
+
+#predicting results from KNN
+y1_pred=classifier.predict(X_test)
+
+#creating the confusion matrix
+from sklearn.metrics import confusion_matrix
+cm2=confusion_matrix(y_test,y1_pred)
+
 
 
