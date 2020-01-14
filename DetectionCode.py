@@ -38,6 +38,16 @@ regressor.fit(X_train,y_train)
 #predicting results usuing the modal
 y_pred = regressor.predict(X_test)
 
+
+#calculating f1 score
+from sklearn.metrics import f1_score
+f1_score(y_test,y1_pred)
+
+#calculating accuracy score
+
+from sklearn.metrics import accuracy_score
+accuracy_score(y_test,y1_pred)
+
 y_pred=np.rint(y_pred)
 
 
