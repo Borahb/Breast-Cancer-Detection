@@ -76,5 +76,69 @@ f1_score(y_test,y1_pred)
 from sklearn.metrics import accuracy_score
 accuracy_score(y_test,y1_pred)
 
+#fitting the data in Naive Bayes model
+from sklearn.naive_bayes import GaussianNB
+classi = GaussianNB()
+classi.fit(X_train,y_train)
+
+#predicting reults
+y2_pred = classi.predict(X_test)
+
+#creating the confusion matrix
+from sklearn.metrics import confusion_matrix
+cm3=confusion_matrix(y_test,y2_pred)
+
+#calculating f1 score
+from sklearn.metrics import f1_score
+f1_score(y_test,y2_pred)
+
+#calculating accuracy score
+
+from sklearn.metrics import accuracy_score
+accuracy_score(y_test,y2_pred)
+
+
+#now fitting the data in decision tree classification
+from sklearn.tree import DecisionTreeClassifier
+classi2 = DecisionTreeClassifier(criterion = "entropy",random_state =0)
+classi2.fit(X_train,y_train)
+
+#predicting results
+y3_pred = classi2.predict(X_test)
+
+
+#creating the confusion matrix
+from sklearn.metrics import confusion_matrix
+cm4=confusion_matrix(y_test,y3_pred)
+
+#calculating f1 score
+from sklearn.metrics import f1_score
+f1_score(y_test,y3_pred)
+
+#calculating accuracy score
+
+from sklearn.metrics import accuracy_score
+accuracy_score(y_test,y3_pred)
+
+#fitting the data in random forst classification model
+from sklearn.ensemble import RandomForestClassifier
+classifi2 = RandomForestClassifier(n_estimators = 180,criterion = "entropy",random_state =0)
+classifi2.fit(X_train,y_train)
+
+#predicting results
+y4_pred = classifi2.predict(X_test)
+
+#creating the confusion matrix
+from sklearn.metrics import confusion_matrix
+cm5=confusion_matrix(y_test,y4_pred)
+
+#calculating f1 score
+from sklearn.metrics import f1_score
+f1_score(y_test,y4_pred)
+
+#calculating accuracy score
+
+from sklearn.metrics import accuracy_score
+accuracy_score(y_test,y4_pred)
 
 
