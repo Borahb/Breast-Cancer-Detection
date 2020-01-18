@@ -141,4 +141,21 @@ f1_score(y_test,y4_pred)
 from sklearn.metrics import accuracy_score
 accuracy_score(y_test,y4_pred)
 
+## Pickle
+import pickle
+ 
+# save model
+pickle.dump(classifi2, open('breast_cancer_detector.pickle', 'wb'))
+ 
+# load model
+breast_cancer_detector_model = pickle.load(open('breast_cancer_detector.pickle', 'rb'))
+ 
+# predict the output
+yf_pred = breast_cancer_detector_model.predict(X_test)
+ 
+# confusion matrix
+print('Confusion matrix of Random Forest Classifier: \n',confusion_matrix(y_test, y_pred),'\n')
+ 
+# show the accuracy
+print('Accuracy of Random Forest Classifier = ',accuracy_score(y_test, y_pred))
 
