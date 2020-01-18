@@ -1,5 +1,5 @@
 # Breast-Cancer-Detection
-This code helps to classify malignant bening tumour cells.
+This code helps to classify malignant and bening tumour cells.
 
 
 [![](https://sourcerer.io/fame/Borahb/Borahb/Breast-Cancer-Detection/images/0)](https://sourcerer.io/fame/Borahb/Borahb/Breast-Cancer-Detection/links/0)[![](https://sourcerer.io/fame/Borahb/Borahb/Breast-Cancer-Detection/images/1)](https://sourcerer.io/fame/Borahb/Borahb/Breast-Cancer-Detection/links/1)[![](https://sourcerer.io/fame/Borahb/Borahb/Breast-Cancer-Detection/images/2)](https://sourcerer.io/fame/Borahb/Borahb/Breast-Cancer-Detection/links/2)[![](https://sourcerer.io/fame/Borahb/Borahb/Breast-Cancer-Detection/images/3)](https://sourcerer.io/fame/Borahb/Borahb/Breast-Cancer-Detection/links/3)[![](https://sourcerer.io/fame/Borahb/Borahb/Breast-Cancer-Detection/images/4)](https://sourcerer.io/fame/Borahb/Borahb/Breast-Cancer-Detection/links/4)[![](https://sourcerer.io/fame/Borahb/Borahb/Breast-Cancer-Detection/images/5)](https://sourcerer.io/fame/Borahb/Borahb/Breast-Cancer-Detection/links/5)[![](https://sourcerer.io/fame/Borahb/Borahb/Breast-Cancer-Detection/images/6)](https://sourcerer.io/fame/Borahb/Borahb/Breast-Cancer-Detection/links/6)[![](https://sourcerer.io/fame/Borahb/Borahb/Breast-Cancer-Detection/images/7)](https://sourcerer.io/fame/Borahb/Borahb/Breast-Cancer-Detection/links/7)
