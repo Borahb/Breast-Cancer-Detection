@@ -23,8 +23,11 @@ The KNN model gives a f1 score of 0.933 and accuracy of 94.7%.And for the Random
 
 3.Used Malignant = 1 and Benign = 0
 
+## Execution
+Run the file DetectionCode.py in you system.
+
 ## Licence
-This project is licensed under the MIT License - see the LICENSE.md file for details
+This project is licensed under the MIT License - see the LICENSE.txt file for details
 
 
 
